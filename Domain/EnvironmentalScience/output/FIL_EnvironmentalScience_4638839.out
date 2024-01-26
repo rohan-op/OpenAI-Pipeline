@@ -1,0 +1,62 @@
+Original shape:  (21744, 28)
+Distribution of Null Values BEFORE Filtering: 
+ paperId                         0
+corpusId                        0
+url                             0
+title                           0
+venue                       10227
+publicationVenue            11185
+year                           67
+authors                         0
+externalIds                     0
+abstract                     5021
+referenceCount                  0
+citationCount                   0
+influentialCitationCount        0
+isOpenAccess                    0
+openAccessPdf               13017
+fieldsOfStudy                2947
+s2FieldsOfStudy                 0
+publicationTypes            11374
+publicationDate              4740
+journal                      5190
+citationStyles                  0
+embedding                   11058
+tldr                        13207
+citations                       0
+references                      0
+domain                          0
+subtopic                        0
+date_retrieval                  0
+dtype: int64
+Modified shape:  (6342, 28)
+Distribution of Null Values AFTER Filtering: 
+ paperId                        0
+corpusId                       0
+url                            0
+title                          0
+venue                       2303
+publicationVenue            2621
+year                           0
+authors                        0
+externalIds                    0
+abstract                       0
+referenceCount                 0
+citationCount                  0
+influentialCitationCount       0
+isOpenAccess                   0
+openAccessPdf                700
+fieldsOfStudy                258
+s2FieldsOfStudy                0
+publicationTypes            2640
+publicationDate                0
+journal                      575
+citationStyles                 0
+embedding                   2363
+tldr                        2975
+citations                      0
+references                     0
+domain                         0
+subtopic                       0
+date_retrieval                 0
+dtype: int64

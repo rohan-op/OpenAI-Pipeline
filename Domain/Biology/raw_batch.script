@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#SBATCH -J RAW_Biology
+#SBATCH -A students
+#SBATCH -o /N/u/shahrob/Carbonate/Research/Scripts/Domain/Biology/output/Biology_%j.out
+#SBATCH -e /N/u/shahrob/Carbonate/Research/Scripts/Domain/Biology/error/Biology_%j.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=shahrob@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=08:00:00
+#SBATCH --mem=8G
+
+# Load any modules that your program needs
+
+# Activate your Python environment if necessary
+source activate env
+
+# Run your Python script
+python raw.py

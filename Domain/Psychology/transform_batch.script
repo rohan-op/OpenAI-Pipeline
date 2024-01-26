@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#SBATCH -J TRANS_Psychology
+#SBATCH -A r00408
+#SBATCH -o /N/u/shahrob/Carbonate/Research/Scripts/Domain/Psychology/output/TRANS_Psychology_%j.out
+#SBATCH -e /N/u/shahrob/Carbonate/Research/Scripts/Domain/Psychology/error/TRANS_Psychology_%j.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=shahrob@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=04:00:00
+#SBATCH --mem=4G
+
+# Load any modules that your program needs
+
+# Activate your Python environment if necessary
+source activate env
+
+# Run your Python script
+python transform.py

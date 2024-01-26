@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "gen_data.py", line 4, in <module>
+    from gpt import gpt_df_generator
+  File "../gpt.py", line 1, in <module>
+    from langchain.output_parsers import StructuredOutputParser, ResponseSchema
+  File "/geode2/home/u080/shahrob/Carbonate/Research/env/lib64/python3.6/site-packages/langchain/__init__.py", line 8, in <module>
+    from langchain.agents import MRKLChain, ReActChain, SelfAskWithSearchChain
+  File "/geode2/home/u080/shahrob/Carbonate/Research/env/lib64/python3.6/site-packages/langchain/agents/__init__.py", line 2, in <module>
+    from langchain.agents.agent import Agent
+  File "/geode2/home/u080/shahrob/Carbonate/Research/env/lib64/python3.6/site-packages/langchain/agents/agent.py", line 2
+    from __future__ import annotations
+    ^
+SyntaxError: future feature annotations is not defined
