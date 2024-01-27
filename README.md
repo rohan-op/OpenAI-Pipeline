@@ -1,6 +1,6 @@
 # OpenAI-Pipeline
 
-OpenAI-Pipeline is a sophisticated tool designed to fetch publicly available research papers from various domains such as Biology, Computer Science, Physics, Geology, and more, using the Semantic Scholar API. By leveraging Semantic Scholar, the pipeline retrieves papers based on different subtopics specified for each domain. These papers are then preprocessed to remove redundant attributes and simplify complex nested JSON data structures.
+OpenAI-Pipeline is a tool designed to fetch publicly available research papers from various domains such as Biology, Computer Science, Physics, Geology, and more, using the Semantic Scholar API. By leveraging Semantic Scholar, the pipeline retrieves papers based on different subtopics specified for each domain. These papers are then preprocessed to remove redundant attributes and simplify complex nested JSON data structures.
 
 ## Overview
 
